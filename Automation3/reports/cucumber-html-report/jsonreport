@@ -1,0 +1,304 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Demosite registration-Invalid details",
+        "description": "",
+        "id": "practice-automation3;demosite-registration-invalid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10818821560,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user launch the browser",
+            "match": {
+              "location": "Invaliddetails_step.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60418586988,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user opens the Practice automation website",
+            "match": {
+              "location": "Invaliddetails_step.the_user_opens_the_Practice_automation_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7850015722,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enter the email and password",
+            "match": {
+              "location": "Invaliddetails_step.the_user_enter_the_email_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14358105845,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click_the_login_button",
+            "match": {
+              "location": "Invaliddetails_step.click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18564740110,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click_the Demo site button",
+            "match": {
+              "location": "Invaliddetails_step.click_the_Demo_site_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5699858827,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "fill all the invalid details in the register form",
+            "match": {
+              "location": "Invaliddetails_step.fill_all_the_invalid_details_in_the_register_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6188805763,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on submit button",
+            "match": {
+              "location": "Invaliddetails_step.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TC_01"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Demosite -Mandatory fields",
+        "description": "",
+        "id": "practice-automation3;demosite--mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8540807977,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "open_the_url_in a browser",
+            "match": {
+              "location": "Mandatoryfields_step.open_the_url_in_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31228289257,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the url is opened click on demosite",
+            "match": {
+              "location": "Mandatoryfields_step.the_url_is_opened_click_on_demosite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26859888928,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fill only mandatory fields in the register form",
+            "match": {
+              "location": "Mandatoryfields_step.fill_only_mandatory_fields_in_the_register_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6755764230,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click_on submit button",
+            "match": {
+              "location": "Mandatoryfields_step.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@TC_02"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Demosite-Refresh",
+        "description": "",
+        "id": "practice-automation3;demosite-refresh",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8113174010,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user has launched the browser",
+            "match": {
+              "location": "Refresh_step.the_user_has_launched_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83314871905,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the url is open and click on demosite",
+            "match": {
+              "location": "Refresh_step.the_url_is_open_and_click_on_demosite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24133231132,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "fill all the details",
+            "match": {
+              "location": "Refresh_step.fill_all_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12998562616,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on refresh",
+            "match": {
+              "location": "Refresh_step.click_on_refresh()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@TC_03"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Demosite-FileDownload",
+        "description": "",
+        "id": "practice-automation3;demosite-filedownload",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7403365931,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Open url in the browser",
+            "match": {
+              "location": "FileDownload_step.open_url_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39874115806,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "automation site is opened",
+            "match": {
+              "location": "FileDownload_step.automation_site_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25900931570,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on more and filedownload",
+            "match": {
+              "location": "FileDownload_step.click_on_more_and_filedownload()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2249474453,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "download the file",
+            "match": {
+              "location": "FileDownload_step.download_the_file()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@TC_04"
+          }
+        ]
+      }
+    ],
+    "name": "Practice_Automation3",
+    "description": "",
+    "id": "practice-automation3",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/testcase.feature"
+  }
+]
